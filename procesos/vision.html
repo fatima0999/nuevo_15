@@ -1,0 +1,93 @@
+<!-- Declara el tipo de documento como HTML5. -->
+<!DOCTYPE html>
+<!-- efine el inicio del documento HTML con el idioma inglés. -->
+<html lang="en">
+    <!-- Contiene metadatos y enlaces a recursos externos. -->
+    <head>
+        <!-- Especifica la codificación de caracteres como UTF-8 -->
+        <meta charset="UTF-8">
+        <!-- Configura la vista del portapapeles para dispositivos móviles. -->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!-- : Enlaza la hoja de estilos de Bootstrap. -->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+        <title>Document</title>
+    </head>
+    <body>
+        <!----Contenedor de menu de opciones-->
+        <div class="container-fluid:100%">
+             <!-- Define una fila en Bootstrap para organizar columnas. -->
+            <div class="row">
+                <!-- Define una columna en Bootstrap sin un ancho específico. -->
+                <div class="col">
+                    <!-- contenido de la barra de navegación que se colapsará en dispositivos móviles. -->
+                    <nav class="navbar navbar-expand-lg navbar-light bg-dark navbar-hover">
+                        <!-- Estilo en línea para establecer el color de fondo del botón. -->
+                        <button style="background-color: green;" class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        
+                        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                            <!-- Define una lista no ordenada para los elementos del menú de navegación. -->
+                            <ul class="navbar-nav mr-auto">
+                                 <!-- Elemento del menú activo -->
+                                <li class="nav-item active">
+                                <a class="nav-link" href="../index.html" style="color: white;">Inicio<span class="sr-only">(current)</span></a>
+                                </li>
+                                <li class="nav-item">
+                                <a class="nav-link" href="somos.html" style="color: white;">¿Quienes somos?</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="vision.html" style="color: white;">Vision</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="mision.html" style="color: white;">Mision</a>
+                                </li>
+                            </ul>
+                            
+                        </div>
+                    </nav>
+                </div>
+            </div>
+        </div>
+
+        <br>
+        <!-- Es una clase de  que crea un contenedor con un ancho fijo y centrado. -->
+        <div class="container">
+            <div class="row">
+                <div class="col" style="text-align: center;">
+                    <!-- Define un encabezado de nivel 1 en HTML, que es el encabezado más grande y generalmente se usa para títulos principales. -->
+                    <h1>VISIÓN DE LA EMPRESA</h1>
+                </div>
+            </div>
+        </div>
+        <br>
+        <!--Es una clase de que crea un contenedor con un ancho fijo y centrado. -->
+        <div class="container">
+            <div class="row">
+                <!-- Es una clase de Bootstrap que define una columna sin un ancho específico, lo que permite que se ajuste automáticamente al contenido. -->
+                <div class="col-sm-6">
+                    <div class="card" style="width: 23rem;">
+                        <img class="card-img-top" src="../img/vision.png" alt="Card image cap">
+                        
+                    </div>
+                </div>
+                <div class="col">
+                    <!-- Es una clase de Bootstrap que define una columna sin un ancho específico, lo que permite que se ajuste automáticamente al contenido. -->
+                    <div class="card w-85">
+                        <div class="card-body">
+                             <!-- Define un encabezado de nivel 1 en HTML, que es el encabezado más grande y generalmente se usa para títulos principales. -->
+                            <h5 class="card-title">Visión:</h5>
+                            <!--parrafos-->
+                            <p class="card-text">Elaborar calzado y ropa que las personas amen. Todo hecho de una manera que ayude a crear un negocio más sostenible y un futuro compartido mejor, 
+                                    que tenga un impacto en la vida de las personas, comunidades y el planeta.</p>
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</html>
